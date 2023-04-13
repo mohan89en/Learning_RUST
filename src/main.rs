@@ -1,0 +1,33 @@
+//mod print;
+//mod var;
+//mod types;
+//mod string;
+//mod tup;
+//mod array;
+//mod if_else;
+//mod loops;
+//mod func;
+// mod pointers;
+// mod structs;
+// mod struct_fun;
+// mod enums;
+// mod cli;
+mod rps;
+fn main() {
+    //print::run();
+    //var::run();
+    //types::print();
+    //string::run();
+    //tup::start();
+    //array::print();
+    //array::vector();
+    //if_else::run();
+    //loops::for_loop();
+    //func::run();
+    // pointers::run();
+    // structs::run();
+    // struct_fun::run();
+    // enums::print();
+    //cli::run();
+    rps::run();
+}
