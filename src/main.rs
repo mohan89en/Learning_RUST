@@ -12,7 +12,8 @@
 // mod struct_fun;
 // mod enums;
 // mod cli;
-mod rps;
+//mod rps;
+mod struct_ex;
 fn main() {
     //print::run();
     //var::run();
@@ -29,5 +30,6 @@ fn main() {
     // struct_fun::run();
     // enums::print();
     //cli::run();
-    rps::run();
+    //rps::run();
+    struct_ex::run();
 }
