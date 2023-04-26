@@ -14,6 +14,7 @@
 // mod cli;
 //mod rps;
 mod struct_ex;
+mod prob1;
 fn main() {
     //print::run();
     //var::run();
@@ -32,4 +33,5 @@ fn main() {
     //cli::run();
     //rps::run();
     struct_ex::run();
+    prob1::solution1();
 }
