@@ -1,16 +1,15 @@
-fn solution1(intensity: i32, random_number: i32) {
-    let expensive_result = simulated_expensive_calculation(intensity);
-    if intensity < 25 {
-        println!("Today, do {} pushups!", expensive_result);
-        println!("Next, do {} situps!", expensive_result);
-    } else {
-        if random_number == 3 {
-            println!(
-                "Take a break today! Remember to stay
-hydrated!"
-            );
-        } else {
-            println!("Today, run for {} minutes!", expensive_result)
-        }
+pub fn run(){
+    let num_terms = 10;
+    
+    // Initialize the first two terms of the sequence
+    let mut prev = 0;
+    let mut curr = 1;
+    
+    // Loop through each term of the sequence and print it
+    for i in 0..num_terms {
+        println!("Term {}: {}", i+1, prev);
+        let next = prev + curr;
+        prev = curr;
+        curr = next;
     }
 }

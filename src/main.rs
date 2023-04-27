@@ -32,6 +32,6 @@ fn main() {
     // enums::print();
     //cli::run();
     //rps::run();
-    struct_ex::run();
-    prob1::solution1();
+    //struct_ex::run();
+    prob1::run();
 }
